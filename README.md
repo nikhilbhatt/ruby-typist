@@ -1,9 +1,5 @@
 # RubyTypist
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ruby_typist`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
-
+Ruby typist animator gem
 ## Installation
 
 Install the gem and add to the application's Gemfile by executing:
@@ -16,7 +12,9 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+In your erb file include the following line to use this gem.
+
+    $ <%= RubyTypist::Typist.new.typer(['one', 'two']).html_safe %>
 
 ## Development
 
