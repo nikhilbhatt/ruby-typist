@@ -1,4 +1,7 @@
 # RubyTypist
+
+![](https://github.com/nikhilbhatt/ruby-typist/blob/master/gif/ezgif.com-gif-maker.gif)
+
 Ruby typist animator gem
 ## Installation
 
